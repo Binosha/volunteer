@@ -53,18 +53,7 @@ public class MainActivity extends Activity {
 		RunAnimation();
 		RunAnimation();
 		
-        /*RelativeLayout   layout = (RelativeLayout) findViewById(R.id.layout);//In your xml file, main xml  layout android:id="@+id/layout" 
-		layout.setOnTouchListener(new OnTouchListener() {
-
-		        @Override
-		        public boolean onTouch(View v, MotionEvent event) {
-		            // TODO Auto-generated method stub
-		            Intent i=new Intent(MainActivity.this,TestActivity.class);  
-		            startActivity(i);
-		            finish();
-					return false;
-		           }
-		 });*/
+       
     }
 
 
@@ -74,5 +63,13 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
+
+	@Override
+	public void onBackPressed() {
+		// TODO Auto-generated method stub
+		  this.finish();
+	}
+    
+    
     
 }

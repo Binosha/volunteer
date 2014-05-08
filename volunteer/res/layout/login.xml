@@ -3,6 +3,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" 
     android:background="@drawable/background">
-    
+
+    <Button
+        android:id="@+id/gbtn"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_x="43dp"
+        android:layout_y="264dp"
+        android:background="@drawable/g2" />
+
+    <Button
+        android:id="@+id/fbbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="46dp"
+        android:layout_y="159dp"
+        android:background="@drawable/f1" />
+
+    <Button
+        android:id="@+id/regbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="47dp"
+        android:layout_y="53dp"
+        android:background="@drawable/register" />
 
 </AbsoluteLayout>

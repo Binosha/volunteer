@@ -1,0 +1,28 @@
+package bhash.spiralation.volunteer;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
+public class HomeActivity extends Activity{
+	Button reg;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_home);
+		
+		reg=(Button) findViewById(R.id.regbtn);
+		
+	}
+
+	@Override
+	public void onBackPressed() {
+		// TODO Auto-generated method stub
+		super.onBackPressed();
+	}
+	
+	
+
+}
