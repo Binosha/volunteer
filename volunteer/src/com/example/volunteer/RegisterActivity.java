@@ -42,7 +42,7 @@ public class RegisterActivity extends AsyncTask<String , Void, String>{
         HttpClient httpclient = new DefaultHttpClient();
 
         // make POST request to the given URL
-        String url= "PostRequestURLHere";
+        String url= "http://175.157.7.19/letsvolunteer/web/app.php/registerAndroid";
         HttpPost httpPost = new HttpPost(url);
         
         

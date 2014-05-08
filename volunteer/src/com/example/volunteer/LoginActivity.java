@@ -26,7 +26,10 @@ public class LoginActivity extends Activity {
         final Button button = (Button) findViewById(R.id.btSubmit);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-              login(v);            
+              login(v); 
+              Intent e1 = new Intent(LoginActivity.this, Home.class);
+		 	     startActivity(e1);    
+		         finish();
             }
         });
 		

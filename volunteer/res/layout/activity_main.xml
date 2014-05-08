@@ -19,7 +19,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="79dp"
         android:text="Touch   the  Screen   to  log  in"
-        android:textColor="#FF9900"
+        android:textColor="#FF3300"
         android:textStyle="bold|italic" />
 
 </RelativeLayout>

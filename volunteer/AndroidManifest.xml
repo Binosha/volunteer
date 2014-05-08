@@ -46,6 +46,11 @@
             android:label="@string/app_name" >
             
         </activity>
+        <activity
+            android:name="com.example.volunteer.Home"
+            android:label="@string/app_name" >
+            
+        </activity>
     </application>
   
    
