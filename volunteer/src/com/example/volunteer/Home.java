@@ -47,7 +47,7 @@ public class Home extends Activity {
 		dataList.add(new DrawerItem(true)); // adding a spinner to the list
 
 		dataList.add(new DrawerItem("My Favorites")); // adding a header to the list
-		
+		dataList.add(new DrawerItem("Home", R.drawable.ic_action_good));
 		dataList.add(new DrawerItem("Projects", R.drawable.ic_action_good));
 		dataList.add(new DrawerItem("Events", R.drawable.ic_action_gamepad));
 		dataList.add(new DrawerItem("Organizations", R.drawable.ic_action_group));
